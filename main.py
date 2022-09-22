@@ -11,6 +11,7 @@ intents.presences = True
 client = discord.Client(intents=discord.Intents.all())
 g = client.get_guild(1020638820661743637)
 
+
 # logging
 logger = logging.getLogger('discord')
 logger.setLevel(logging.DEBUG)
@@ -46,7 +47,11 @@ async def on_member_join(member: discord.Member):
     if member.guild.id == 1020638820661743637:
         await member.add_roles(role)
         await channel.send(
-            f'**Hey! {member.name}**\n Willkommen auf dem Discord Server von Bad-Timing! \n Viel Spa߸!')
+            f'**Hey! {member.mention}**\n Willkommen auf dem Discord Server von Bad-Timing! '
+            f'\n Viel Spa߸!'
+            f'\n Bitte denk dran dir in dem Channel : <#1020656244282884117> Sowie <#1020997697634836490> die Regeln anzuschauen. '
+            f'\nDeinen namen mit "Rechtsklick auf dich > Serverprofil bearbeiten" deinen Namen laut den Regeln im Format "Nickname | Vorname" abzu�ndern. '
+            f'\nBitte Hier deine Raid-Rolle angeben <#1022522741536075836>')
 
 
 # Commands
@@ -71,6 +76,10 @@ def main():
             print("Connected to server: {}".format(guild))
         print("------")
         client.loop.create_task(status_task())
+        anreise = client.get_channel(1020647791388798986)
+        print('Clearing messages...')
+        await anreise.purge(limit=1000)
+
 
 # Start
 if __name__ == '__main__':
