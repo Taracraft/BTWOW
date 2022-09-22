@@ -9,7 +9,7 @@ intents.members = True
 intents.messages = True
 intents.presences = True
 client = discord.Client(intents=discord.Intents.all())
-g = client.get_guild(904846660256022579)
+g = client.get_guild(1020638820661743637)
 
 # logging
 logger = logging.getLogger('discord')
@@ -42,8 +42,8 @@ async def status_task():
 @client.event
 async def on_member_join(member: discord.Member):
     role = discord.utils.get(member.guild.roles, name="Member")
-    channel = client.get_channel(905056217595002891)
-    if member.guild.id == 904846660256022579:
+    channel = client.get_channel(1020647791388798986)
+    if member.guild.id == 1020638820661743637:
         await member.add_roles(role)
         await channel.send(
             f'**Hey! {member.name}**\n Willkommen auf dem Discord Server von Bad-Timing! \n Viel Spa߸!')
@@ -58,7 +58,7 @@ async def on_message(message):
         return
     if message.content.lower() == "!help":
         await message.channel.send('**Hilfe zum BT-Bot**\n\n'
-                                   '$help zeigt diese Hilfe an.')
+                                   '!help zeigt diese Hilfe an.')
 # Skript Start
 def main():
     @client.event
