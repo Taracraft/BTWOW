@@ -274,3 +274,90 @@
 [2022-09-22 13:37:01] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
 [2022-09-22 13:37:01] [DEBUG   ] discord.client: Dispatching event socket_raw_send
 [2022-09-22 13:37:06] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:06] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:06] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:11] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:11] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:16] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:16] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:21] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:21] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:26] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:26] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:31] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:31] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:35] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2022-09-22 13:37:35] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-22 13:37:35] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-22 13:37:35] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-22 13:37:36] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:36] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:41] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:41] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:46] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:46] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:51] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:51] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:37:56] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:37:56] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:01] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:01] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:06] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:06] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:11] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:11] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:16] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:16] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:16] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2022-09-22 13:38:16] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-22 13:38:16] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-22 13:38:16] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-22 13:38:21] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:21] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:26] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:26] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:31] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:31] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:36] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:36] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:41] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:41] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:46] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:46] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:51] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:51] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:56] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:38:56] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:38:57] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2022-09-22 13:38:57] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-22 13:38:57] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-22 13:38:57] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-22 13:39:01] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:01] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:06] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:06] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:11] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:11] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:16] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:16] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:21] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:21] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:26] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:26] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:31] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:31] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:36] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:36] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:39] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 2.
+[2022-09-22 13:39:39] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-22 13:39:39] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-22 13:39:39] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-22 13:39:41] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:41] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:46] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:46] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:51] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:51] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:39:56] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-22 13:39:56] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-22 13:40:01] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
