@@ -1198,3 +1198,127 @@
 [2022-09-24 18:56:34] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
 [2022-09-24 18:56:34] [DEBUG   ] discord.client: Dispatching event socket_raw_send
 [2022-09-24 18:56:39] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:56:39] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:56:39] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:56:44] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:56:44] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:56:49] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 7.
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:56:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:56:49] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:56:49] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 8, 'op': 0, 'd': {'webhook_id': '1023276341535182920', 'type': 0, 'tts': False, 'timestamp': '2022-09-24T16:56:49.132000+00:00', 'pinned': False, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'id': '1023276835435462678', 'flags': 0, 'embeds': [{'url': 'https://github.com/Taracraft/BTWOW/compare/cdd4bfc48c5c...99e27dc5a2c9', 'type': 'rich', 'title': '[BTWOW:master] 2 new commits', 'description': "[`7811488`](https://github.com/Taracraft/BTWOW/commit/78114884fad0c7ec91828d585aa28c8fc9779c25) Ankündigung bei Join verändert und Bugs behoben - Taracraft\n[`99e27dc`](https://github.com/Taracraft/BTWOW/commit/99e27dc5a2c98a05bb6f3c9b3de3ebddec3bc5b0) Merge remote-tracking branch 'main/master' - Taracraft", 'color': 7506394, 'author': {'url': 'https://github.com/Taracraft', 'proxy_icon_url': 'https://images-ext-1.discordapp.net/external/XQZ-iD-Dfg81tdx_12ZzqjyG-NVt8i0gdFXXrEDR5IE/%3Fv%3D4/https/avatars.githubusercontent.com/u/90864484', 'name': 'Taracraft', 'icon_url': 'https://avatars.githubusercontent.com/u/90864484?v=4'}}], 'edited_timestamp': None, 'content': '', 'components': [], 'channel_id': '1023276197322440796', 'author': {'username': 'GitHub', 'id': '1023276341535182920', 'discriminator': '0000', 'bot': True, 'avatar': None}, 'attachments': [], 'guild_id': '1020638820661743637'}}
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:56:49] [DEBUG   ] discord.client: Dispatching event message
+[2022-09-24 18:56:50] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:56:50] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_UPDATE', 's': 9, 'op': 0, 'd': {'id': '1023276835435462678', 'embeds': [{'url': 'https://github.com/Taracraft/BTWOW/compare/cdd4bfc48c5c...99e27dc5a2c9', 'type': 'rich', 'title': '[BTWOW:master] 2 new commits', 'description': "[`7811488`](https://github.com/Taracraft/BTWOW/commit/78114884fad0c7ec91828d585aa28c8fc9779c25) Ankündigung bei Join verändert und Bugs behoben - Taracraft\n[`99e27dc`](https://github.com/Taracraft/BTWOW/commit/99e27dc5a2c98a05bb6f3c9b3de3ebddec3bc5b0) Merge remote-tracking branch 'main/master' - Taracraft", 'color': 7506394, 'author': {'url': 'https://github.com/Taracraft', 'proxy_icon_url': 'https://images-ext-1.discordapp.net/external/XQZ-iD-Dfg81tdx_12ZzqjyG-NVt8i0gdFXXrEDR5IE/%3Fv%3D4/https/avatars.githubusercontent.com/u/90864484', 'name': 'Taracraft', 'icon_url': 'https://avatars.githubusercontent.com/u/90864484?v=4'}}], 'channel_id': '1023276197322440796', 'author': {'username': 'GitHub', 'id': '1023276341535182920', 'discriminator': '0000', 'bot': True, 'avatar': 'df91181b3f1cf0ef1592fbe18e0962d7'}, 'guild_id': '1020638820661743637'}}
+[2022-09-24 18:56:50] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:56:50] [DEBUG   ] discord.client: Dispatching event raw_message_edit
+[2022-09-24 18:56:50] [DEBUG   ] discord.client: Dispatching event message_edit
+[2022-09-24 18:56:51] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:56:51] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 10, 'op': 0, 'd': {'user': {'id': '671028486131023884'}, 'status': 'online', 'roles': ['1020654230777905203'], 'premium_since': None, 'nick': 'Phyla | Stef', 'guild_id': '1020638820661743637', 'game': None, 'client_status': {'desktop': 'online'}, 'activities': []}}
+[2022-09-24 18:56:51] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:56:51] [DEBUG   ] discord.client: Dispatching event member_update
+[2022-09-24 18:56:54] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:56:54] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:56:59] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:56:59] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:04] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:04] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:09] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:09] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:12] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:57:12] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 11, 'op': 0, 'd': {'user': {'id': '671028486131023884'}, 'status': 'online', 'roles': ['1020654230777905203'], 'premium_since': None, 'nick': 'Phyla | Stef', 'guild_id': '1020638820661743637', 'game': {'type': 0, 'timestamps': {'start': 1664038633511}, 'session_id': None, 'name': 'World of Warcraft Classic', 'id': 'c156b318b4014408', 'created_at': 1664038632258, 'application_id': '615752773690064908'}, 'client_status': {'desktop': 'online'}, 'activities': [{'type': 0, 'timestamps': {'start': 1664038633511}, 'name': 'World of Warcraft Classic', 'id': 'c156b318b4014408', 'created_at': 1664038632258, 'application_id': '615752773690064908'}]}}
+[2022-09-24 18:57:12] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:57:12] [DEBUG   ] discord.client: Dispatching event member_update
+[2022-09-24 18:57:14] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:14] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:19] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:19] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:20] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:57:20] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 12, 'op': 0, 'd': {'user': {'id': '746395253505785907'}, 'status': 'online', 'roles': ['1020654230777905203'], 'premium_since': None, 'nick': None, 'guild_id': '1020638820661743637', 'game': None, 'client_status': {'web': 'online'}, 'activities': []}}
+[2022-09-24 18:57:20] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:57:20] [DEBUG   ] discord.client: Dispatching event member_update
+[2022-09-24 18:57:24] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:24] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:29] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:29] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:30] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 12.
+[2022-09-24 18:57:30] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:57:30] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-24 18:57:30] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:57:34] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:34] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:39] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:39] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:44] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:44] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:47] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:57:47] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBER_REMOVE', 's': 13, 'op': 0, 'd': {'user': {'username': 'Taracraft', 'public_flags': 0, 'id': '746395253505785907', 'discriminator': '7614', 'avatar_decoration': None, 'avatar': None}, 'guild_id': '1020638820661743637'}}
+[2022-09-24 18:57:47] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:57:47] [DEBUG   ] discord.client: Dispatching event member_remove
+[2022-09-24 18:57:49] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:49] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:54] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:54] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:57:59] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:57:59] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:03] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBER_ADD', 's': 14, 'op': 0, 'd': {'user': {'username': 'Taracraft', 'public_flags': 0, 'id': '746395253505785907', 'discriminator': '7614', 'avatar_decoration': None, 'avatar': None}, 'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-09-24T16:58:03.575752+00:00', 'is_pending': False, 'guild_id': '1020638820661743637', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}}
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event member_join
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:03] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'PRESENCE_UPDATE', 's': 15, 'op': 0, 'd': {'user': {'username': 'Taracraft', 'id': '746395253505785907', 'discriminator': '7614', 'avatar': None}, 'status': 'online', 'roles': [], 'premium_since': None, 'nick': None, 'guild_id': '1020638820661743637', 'game': None, 'client_status': {'web': 'online'}, 'activities': []}}
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event member_update
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:03] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 16, 'op': 0, 'd': {'type': 7, 'tts': False, 'timestamp': '2022-09-24T16:58:03.645000+00:00', 'pinned': False, 'mentions': [], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': [], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-09-24T16:58:03.575752+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '1023277147965628467', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '', 'components': [], 'channel_id': '1020653417640775741', 'author': {'username': 'Taracraft', 'public_flags': 0, 'id': '746395253505785907', 'discriminator': '7614', 'avatar_decoration': None, 'avatar': None}, 'attachments': [], 'guild_id': '1020638820661743637'}}
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event message
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:03] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'GUILD_MEMBER_UPDATE', 's': 17, 'op': 0, 'd': {'user': {'username': 'Taracraft', 'public_flags': 0, 'id': '746395253505785907', 'discriminator': '7614', 'avatar_decoration': None, 'avatar': None}, 'roles': ['1020654230777905203'], 'premium_since': None, 'pending': False, 'nick': None, 'joined_at': '2022-09-24T16:58:03.575000+00:00', 'is_pending': False, 'guild_id': '1020638820661743637', 'flags': 1, 'communication_disabled_until': None, 'avatar': None}}
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:03] [DEBUG   ] discord.client: Dispatching event member_update
+[2022-09-24 18:58:04] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:04] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': 'MESSAGE_CREATE', 's': 18, 'op': 0, 'd': {'type': 0, 'tts': False, 'timestamp': '2022-09-24T16:58:04.182000+00:00', 'referenced_message': None, 'pinned': False, 'mentions': [{'username': 'Taracraft', 'public_flags': 0, 'member': {'roles': ['1020654230777905203'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-09-24T16:58:03.575000+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '746395253505785907', 'discriminator': '7614', 'avatar_decoration': None, 'avatar': None}], 'mention_roles': [], 'mention_everyone': False, 'member': {'roles': ['1020654740230647828', '1022721553059827726'], 'premium_since': None, 'pending': False, 'nick': None, 'mute': False, 'joined_at': '2022-09-23T04:10:19.587000+00:00', 'flags': 1, 'deaf': False, 'communication_disabled_until': None, 'avatar': None}, 'id': '1023277150217973853', 'flags': 0, 'embeds': [], 'edited_timestamp': None, 'content': '**Hey! <@746395253505785907>**\n Willkommen auf dem Discord Server von Bad-Timing! \n Viel Spaß¸!\n Bitte denk dran dir in dem Channel : <#1020656244282884117> Sowie <#1020997697634836490> die Regeln anzuschauen. \nDeinen namen mit "Rechtsklick auf dich > Serverprofil bearbeiten" deinen Namen laut den Regeln im Format "Nickname | Vorname" abzuändern. \nBitte Hier deine Raid-Rolle angeben <#1022522741536075836>', 'components': [], 'channel_id': '1020647791388798986', 'author': {'username': 'BT-Welcome Bot', 'public_flags': 0, 'id': '907165822772985889', 'discriminator': '4220', 'bot': True, 'avatar_decoration': None, 'avatar': None}, 'attachments': [], 'guild_id': '1020638820661743637'}}
+[2022-09-24 18:58:04] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:04] [DEBUG   ] discord.client: Dispatching event message
+[2022-09-24 18:58:04] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:04] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:09] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:09] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:11] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 18.
+[2022-09-24 18:58:11] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:11] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-24 18:58:11] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:14] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:14] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:19] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:19] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:24] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:24] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:29] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:29] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:34] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:34] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:39] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:39] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:44] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:44] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:49] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:49] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:52] [DEBUG   ] discord.gateway: Keeping shard ID None websocket alive with sequence 18.
+[2022-09-24 18:58:52] [DEBUG   ] discord.client: Dispatching event socket_raw_receive
+[2022-09-24 18:58:52] [DEBUG   ] discord.gateway: For Shard ID None: WebSocket Event: {'t': None, 's': None, 'op': 11, 'd': None}
+[2022-09-24 18:58:52] [DEBUG   ] discord.client: Dispatching event socket_response
+[2022-09-24 18:58:54] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"https://www.bad-timing.eu","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:54] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:58:59] [DEBUG   ] discord.gateway: Sending "{"op":3,"d":{"game":{"type":0,"name":"Welcome-Bot","timestamps":{}},"afk":false,"since":0.0,"status":"online"}}" to change status
+[2022-09-24 18:58:59] [DEBUG   ] discord.client: Dispatching event socket_raw_send
+[2022-09-24 18:59:02] [INFO    ] discord.client: Received signal to terminate bot and event loop.
+[2022-09-24 18:59:02] [INFO    ] discord.client: Cleaning up tasks.
+[2022-09-24 18:59:02] [INFO    ] discord.client: Cleaning up after 2 tasks.
+[2022-09-24 18:59:02] [INFO    ] discord.client: All tasks finished cancelling.
+[2022-09-24 18:59:02] [INFO    ] discord.client: Closing the event loop.
