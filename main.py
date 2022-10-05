@@ -50,9 +50,7 @@ async def on_member_join(member: discord.Member):
             f'**Hey! {member.mention}**\n Willkommen auf dem Discord Server von Bad-Timing! '
             f'\n Wir wünschen dir viel Spaß!'
             f'\n Bitte denk dran dir in dem Channel : <#1020656244282884117> Sowie <#1020997697634836490> die Regeln anzuschauen. '
-            f'\n Deinen namen mit "Rechtsklick auf dich > Serverprofil bearbeiten" deinen Namen laut den Regeln im Format "Nickname | Vorname" abzuändern. '
-            f'\n Bitte Hier deine Raid-Rolle angeben <#1022522741536075836>')
-
+            f'\n Deinen namen mit "Rechtsklick auf dich > Serverprofil bearbeiten" deinen Namen laut den Regeln im Format "Nickname | Vorname" abzuändern.')
 
 
 # Commands
