@@ -1,5 +1,5 @@
 ## Interface: 30400
-## Title: RClootcounsil_WHW
+## Title: |cff00ff00RCLootCounsil Wer hat Was|r
 ## Version: 1.0
 ## Author: Luckypala@Bad-Timing from EU-Patchwerk
 ## Notes: Eine erweiterung für RClootcounsil zum anzeigen wer wieviel bekommen hat
@@ -7,4 +7,4 @@
 
 ## X-License: GNU General Public License version 3 (GPLv3)
 
-WHW.lua
+RCLootConcil_WHW.lua
