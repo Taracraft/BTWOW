@@ -22,17 +22,17 @@ function RCVFP:GetScrollColIndexFromName(colName)
 end
 
 function RCVFP:UpdateColumns()
-    local btbis =
-    { name = "+BIS", DoCellUpdate = self.SetCellBTBIS, colName = "BIS", sortnext = self:GetScrollColIndexFromName("response"), width = 30, align = "CENTER", defaultsort = "asc" }
-	table.insert(RCVotingFrame.scrollCols, btbis)
+    local plusonebis =
+    { name = "+BIS", DoCellUpdate = self.SetCellPlusoneBIS, colName = "BIS", sortnext = self:GetScrollColIndexFromName("response"), width = 30, align = "CENTER", defaultsort = "asc" }
+	table.insert(RCVotingFrame.scrollCols, plusonebis)
 
-    local btupgrade =
-    { name = "+UPGRADE", DoCellUpdate = self.SetCellBtUPGRADE, colName = "UPGRADE", sortnext = self:GetScrollColIndexFromName("BIS"), width = 60, align = "CENTER", defaultsort = "asc" }
-	table.insert(RCVotingFrame.scrollCols, btupgrade)
+    local plusoneupgrade =
+    { name = "+UPGRADE", DoCellUpdate = self.SetCellPlusoneUPGRADE, colName = "UPGRADE", sortnext = self:GetScrollColIndexFromName("BIS"), width = 60, align = "CENTER", defaultsort = "asc" }
+	table.insert(RCVotingFrame.scrollCols, plusoneupgrade)
 
-	local btZweitspec =
-    { name = "+Zweitspec", DoCellUpdate = self.SetCellBtZweitspec, colName = "Zweitspec", sortnext = self:GetScrollColIndexFromName("Zweitspec"), width = 60, align = "CENTER", defaultsort = "asc" }
-	table.insert(RCVotingFrame.scrollCols, btZweitspec)
+	local plusoneZweitspec =
+    { name = "+Zweitspec", DoCellUpdate = self.SetCellPlusoneZweitspec, colName = "Zweitspec", sortnext = self:GetScrollColIndexFromName("Zweitspec"), width = 60, align = "CENTER", defaultsort = "asc" }
+	table.insert(RCVotingFrame.scrollCols, plusoneZweitspec)
 	
 	table.remove(RCVotingFrame.scrollCols, self:GetScrollColIndexFromName("votes"))
 	table.remove(RCVotingFrame.scrollCols, self:GetScrollColIndexFromName("vote"))
@@ -52,7 +52,7 @@ function RCVFP:ResponseSortNext()
     end
 end
 
-function RCVFP.SetCellbtBIS(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
+function RCVFP.SetCellPlusoneBIS(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
 	local name = data[realrow].name
 	local lootTable = RCVotingFrame:GetLootTable()
 	local countLoot = 0
@@ -72,10 +72,10 @@ function RCVFP.SetCellbtBIS(rowFrame, frame, data, cols, row, realrow, column, f
 	end
 	
 	frame.text:SetText(countLoot)
-	data[realrow].cols[column].value = lootTable[session].candidates[name].bt or 0
+	data[realrow].cols[column].value = lootTable[session].candidates[name].plusone or 0
 end
 
-function RCVFP.SetCellbtUPGRADE(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
+function RCVFP.SetCellPlusoneUPGRADE(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
 	local name = data[realrow].name
 	local lootTable = RCVotingFrame:GetLootTable()
 	local countLoot = 0
@@ -95,10 +95,10 @@ function RCVFP.SetCellbtUPGRADE(rowFrame, frame, data, cols, row, realrow, colum
 	end
 	
 	frame.text:SetText(countLoot)
-	data[realrow].cols[column].value = lootTable[session].candidates[name].bt or 0
+	data[realrow].cols[column].value = lootTable[session].candidates[name].plusone or 0
 end
 
-function RCVFP.SetCellbtZweitspec(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
+function RCVFP.SetCellPlusoneZweitspec(rowFrame, frame, data, cols, row, realrow, column, fShow, table, ...)
 	local name = data[realrow].name
 	local lootTable = RCVotingFrame:GetLootTable()
 	local countLoot = 0
@@ -118,5 +118,5 @@ function RCVFP.SetCellbtZweitspec(rowFrame, frame, data, cols, row, realrow, col
 	end
 	
 	frame.text:SetText(countLoot)
-	data[realrow].cols[column].value = lootTable[session].candidates[name].bt or 0
+	data[realrow].cols[column].value = lootTable[session].candidates[name].plusone or 0
 end
