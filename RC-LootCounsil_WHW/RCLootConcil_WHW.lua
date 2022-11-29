@@ -23,15 +23,15 @@ end
 
 function RCVFP:UpdateColumns()
     local plusonebis =
-    { name = "+BIS", DoCellUpdate = self.SetCellPlusoneBIS, colName = "BIS", sortnext = self:GetScrollColIndexFromName("response"), width = 30, align = "CENTER", defaultsort = "asc" }
+    { name = "+BIS", DoCellUpdate = self.SetCellPlusoneBis, colName = "BIS", sortnext = self:GetScrollColIndexFromName("response"), width = 30, align = "CENTER", defaultsort = "asc" }
 	table.insert(RCVotingFrame.scrollCols, plusonebis)
 
     local plusoneupgrade =
-    { name = "+UPGRADE", DoCellUpdate = self.SetCellPlusoneUPGRADE, colName = "UPGRADE", sortnext = self:GetScrollColIndexFromName("BIS"), width = 60, align = "CENTER", defaultsort = "asc" }
+    { name = "+UPGRADE", DoCellUpdate = self.SetCellPlusoneUpgrade, colName = "UPGRADE", sortnext = self:GetScrollColIndexFromName("BIS"), width = 60, align = "CENTER", defaultsort = "asc" }
 	table.insert(RCVotingFrame.scrollCols, plusoneupgrade)
 
 	local plusoneZweitspec =
-    { name = "+Zweitspec", DoCellUpdate = self.SetCellPlusoneZweitspec, colName = "Zweitspec", sortnext = self:GetScrollColIndexFromName("Zweitspec"), width = 60, align = "CENTER", defaultsort = "asc" }
+    { name = "+Zweitspec", DoCellUpdate = self.SetCellPlusoneZweitspec, colName = "Zweitspec", sortnext = self:GetScrollColIndexFromName("Upgrade"), width = 60, align = "CENTER", defaultsort = "asc" }
 	table.insert(RCVotingFrame.scrollCols, plusoneZweitspec)
 	
 	table.remove(RCVotingFrame.scrollCols, self:GetScrollColIndexFromName("votes"))
@@ -62,7 +62,7 @@ function RCVFP.SetCellPlusoneBIS(rowFrame, frame, data, cols, row, realrow, colu
 				if v.date==date("%d/%m/%y") then
 					testVar = v
 					for k, t in pairs(v) do
-						if k=="response" and string.find(string.lower(t), "BIS") then
+						if k=="response" and string.find(string.lower(t), "bis") then
 							countLoot=countLoot+1
 						end
 					end
@@ -85,7 +85,7 @@ function RCVFP.SetCellPlusoneUPGRADE(rowFrame, frame, data, cols, row, realrow, 
 				if v.date==date("%d/%m/%y") then
 					testVar = v
 					for k, t in pairs(v) do
-						if k=="response" and string.find(string.lower(t), "UPGRADE") then
+						if k=="response" and string.find(string.lower(t), "upgrade") then
 							countLoot=countLoot+1
 						end
 					end
@@ -108,7 +108,7 @@ function RCVFP.SetCellPlusoneZweitspec(rowFrame, frame, data, cols, row, realrow
 				if v.date==date("%d/%m/%y") then
 					testVar = v
 					for k, t in pairs(v) do
-						if k=="response" and string.find(string.lower(t), "Zweitspec") then
+						if k=="response" and string.find(string.lower(t), "zweitspec") then
 							countLoot=countLoot+1
 						end
 					end
